@@ -1,6 +1,6 @@
 my_dict = {'Vladlena' : 2000 , 'Alexandr' : 2002}
 print(my_dict)
-(print (my_dict.get('Alexandr')),print (my_dict.get('Dima')))
+print (my_dict['Alexandr']),print (my_dict.get('Dima'))
 my_dict.update({'Olga' : 1977, 'Roma' : 2008})
 a = my_dict.pop('Vladlena')
 print(a)
